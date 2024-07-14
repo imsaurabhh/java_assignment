@@ -1,0 +1,12 @@
+.Navbar {
+        background-color: #4258fe;
+        
+}
+.Navbar .Navbar-Brand{
+        color: aliceblue;
+        font-weight: 600;
+        
+}
+.Navbar .Nav-link{
+        color:  aliceblue;
+}

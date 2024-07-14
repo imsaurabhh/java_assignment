@@ -1,0 +1,17 @@
+.form-column{
+        margin-top: 20px;
+        width: 200;
+}
+.center-form {
+        /* height: 60vh; */
+        
+}
+.center-form Form{
+        max-width: 80vh;
+        width: 70vh;
+        padding: 20px;
+        
+        border-radius: 10px;
+        text-align: center;
+        box-shadow: rgba(97, 97, 97, 0.56) 1px 5px 10px 5px;
+}
