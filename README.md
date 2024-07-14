@@ -9,7 +9,7 @@ To run this application, you need to have the following prerequisites:
 
 - Java Development Kit (JDK) 8 or above
 - Node.js and npm (Node Package Manager)
-- MySQL database (with a schema named `customer`)
+- MySQL database (with a schema named `customers`)
 
 ### Setup
 
@@ -19,6 +19,8 @@ To run this application, you need to have the following prerequisites:
 2. Set up the MySQL database:
 - Create a MySQL database with the name `customers`
 - Update the database connection properties in the application.properties file located in the customer_CRUD folder. Set the correct values for spring.datasource.url, spring.datasource.username, and spring.datasource.password
+- add a login id and password in database to log in
+- without it you wont be able to run the app functions
 
 3. Build and run the Spring Boot backend:
 - Open a terminal and navigate to the customer_CRUD folder
@@ -50,6 +52,7 @@ The React frontend code is located in the Customer_front folder
 
 # How to Use
 
+- first yout have to log in by the credentials you made in database 
 - The React frontend provides a user interface to interact with the backend REST API
 - You can add, view all, and search by name items through the frontend
 - The backend stores the items in the MySQL database
